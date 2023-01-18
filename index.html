@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumo a Marte</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- container form -->
+    <div class="container my-5">
+            <img src="./imagens/logoOneBitDark.png" class="img-fluid img-top mx-auto d-block" alt="logoOneBitDark">
+            <br>
+            <!-- Primeira div do form nome e sobrenome -->
+            <label class="pb-2 px-2">1- Qual seu nome?</label>
+            <div class="form-inputs pb-2 px-2">
+            <div class="input-group pb-3">
+                <div class="input-group-text pe-4">Primeiro nome:</div>
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Digite aqui">
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-text pe-5">Sobrenome:</div>
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Digite aqui">
+            </div>
+            <!-- Segunda div do form gênero -->
+            <label class="py-2">2-Qual seu gênero</label>
+            
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="Homem">
+                <label class="form-check-label" for="Homem">
+                  Homem
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="Mulher">
+                <label class="form-check-label" for="Mulher">
+                  Mulher
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="Não-informado">
+                <label class="form-check-label" for="Não-informado">
+                  Prefiro não informar
+                </label>
+              </div>
+              <!-- Terceira div do form switch -->
+              <label class="py-2">3- Marque os treinamentos que você fez</label>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento básico especifico</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                <label class="form-check-label" for="flexSwitchCheckChecked">Treinamento avançado especifico</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled">
+                <label class="form-check-label" for="flexSwitchCheckDisabled">Treinamento físico básico</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled">
+                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Treinamento físico avançado</label>
+              </div>
+              <!-- Quanrta divisão do form Checkbox -->
+              <label class="py-2">4- Qual dessas qualidades você possui</label>
+              <br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Proativo">
+                <label class="form-check-label" for="inlineCheckbox1">Proativo</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Resistente">
+                <label class="form-check-label" for="inlineCheckbox2">Resistente</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="Não-vomita">
+                <label class="form-check-label" for="inlineCheckbox3">Não vomita com facilidade</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="Corajoso">
+                <label class="form-check-label" for="inlineCheckbox4">Corajoso</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="Mentalmente-estável">
+                <label class="form-check-label" for="inlineCheckbox5">Mentalmente estável</label>
+            </div>
+            <br>
+            <button type="button" class="btn btn-outline-danger mx-auto d-block my-2 mb-3">Enviar</button>
+            </div>
+    </div>
+            <p class="pt-2">Feito por Alexandre Fernandes &copy;todos os direitos reservados</p>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
